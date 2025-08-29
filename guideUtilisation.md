@@ -11,13 +11,13 @@ L’utilisateur peut sélectionner l’action, la période historique et l’int
   * `yfinance` : pour récupérer les données financières historiques des actions.
   * `plotly.express` : pour générer des graphiques interactifs.
 
-1. Se placer dans le dossier du script.
-Ouvrir un terminal et naviguer jusqu’au dossier contenant le fichier Python de l’application :
+1. Récupération du projet.
+Ouvrir un terminal et cloner le dépôt avec la commande suivante :  
     ```bash
-     cd /chemin/vers/le/dossier
+     git clone https://github.com/MyriamA6/stock-viewer
     ```
 
-2. Installation via pip si nécessaire et lancement :
+2. Installation des dépendances et lancement :
 
     ```bash
     pip install streamlit yfinance plotly
